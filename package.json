@@ -1,0 +1,21 @@
+{
+  "name": "curso-astro-demo",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.3.4",
+    "astro": "^4.1.0",
+    "tailwind": "^4.0.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
